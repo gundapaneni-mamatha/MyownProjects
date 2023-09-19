@@ -1,0 +1,75 @@
+.name-profile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #d32f2f;
+    margin-left: 5%;
+  }
+
+  .navigation-item {
+    font-family: 'IBM Plex Sans', sans-serif;
+    color: #fff;
+    cursor: pointer;
+    font-size: 0.875rem;
+    font-weight: 600;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 12px;
+    margin: 6px;
+    border: none;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+  }
+
+  .navigation-item:hover {
+    background-color: #d35b2f;
+  }
+
+  .navigation-item:focus {
+    color: #fff;
+    outline: 3px solid #a44949;
+  }
+
+  .navigation-item:target {
+    background-color: #fff;
+    color: #cd655c;
+  }
+
+  .navigation-item:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .navigation {
+    /* min-width: 400px; */
+    background-color: #d32f2f;
+    border-radius: 12px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+  }
+
+  .avatar {
+    width: 50px; /* Adjust the size of the circle as per your requirements */
+    height: 50px; /* Make sure width and height are equal for a perfect circle */
+    border-radius: 50%; /* This makes the square image round */
+    overflow: hidden; /* Ensures that the image doesn't spill out of the circle */
+    margin-right: 10px; /* Adjust spacing between the image and the name */
+  }
+  
+  .avatar img {
+    width: 100%; /* Make the image fill the circular container */
+    height: 100%; /* Make the image fill the circular container */
+    object-fit: cover; /* Ensure the image doesn't stretch or get distorted */
+  }
+  
+  .name {
+    font-size: 16px; /* Adjust the font size as per your requirements */
+    text-align: center;
+  }
+
+ 

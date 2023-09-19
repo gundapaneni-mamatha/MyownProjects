@@ -1,0 +1,89 @@
+.container {
+    width: 100vw;
+    overflow: hidden;
+    padding: 0;
+}
+
+.textColorContact {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.spacing {
+    margin: 7% 0 0 0;
+}
+
+.iconSpacing {
+    margin-top: 7px;;
+}
+
+.blockLeft {
+    display: block;
+    text-align: center;
+}
+
+.blockRight {
+    display: block;
+    text-align: center;
+
+}
+
+.contactSpacing {
+    margin-top: 3%;
+    font-family: "Robusto";
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.contactFormSpacing {
+    margin-top: 9%;
+    margin-bottom: 5%;
+    font-family: "Robusto";
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.textField {
+    display: block;
+    font-family: "Roboto";
+    font-size: 16px;
+    height: 50px;
+    width: 100%;
+    color: whitesmoke;
+    margin-bottom: 30px;
+    padding: 0;
+    background: none !important;
+    border: none;
+    border-bottom: 1px solid whitesmoke;
+    resize: none;
+    outline: 0;
+}
+
+.textArea {
+    height: 120px;
+    padding: 0;
+    padding-top: 15px;
+}
+
+.btnSpacing{
+    margin-top: 3%;
+}
+
+.btn {
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    height: 44px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #d32f2f;
+    font-weight: 500;
+    text-decoration: none;
+    background: none;
+    border: 2px solid #d32f2f;
+    cursor: pointer;
+    border-radius: 5px;
+}

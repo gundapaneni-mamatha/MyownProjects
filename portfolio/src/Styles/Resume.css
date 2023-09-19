@@ -1,0 +1,151 @@
+.textColorHeadings{
+    color: whitesmoke;
+}
+
+.textColorResume {
+    text-align: start;
+}
+
+.image {
+    width: 200px; /* Adjust the size of the circle as per your requirements */
+    height: 250px; /* Make sure width and height are equal for a perfect circle */
+    border-radius: 10px; /* This makes the square image round */
+    overflow: hidden;
+    margin-right: 15%;
+  }
+  
+  .image img {
+    width: 100%; /* Make the image fill the circular container */
+    height: 100%; /* Make the image fill the circular container */
+    object-fit:cover;
+    object-position: -20% 0;
+  }
+
+  .head {
+    margin-top: 7%;
+  }
+
+  .itemsAlign {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+
+  .itemStart {
+    text-align: start;
+  }
+
+  .itemEnd {
+    text-align: end;
+  }
+
+  .btn {
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    vertical-align: middle;
+    height: 44px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #d32f2f;
+    font-weight: 500;
+    text-decoration: none;
+    background: none;
+    border: 2px solid #d32f2f;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.section {
+    position: relative;
+    display: block;
+    height: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+    border-radius: 5px;
+    align-items: start;
+}
+
+.dateColor {
+    color: #d32f2f;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.descriptionColor {
+    color: #FDEDEC;
+}
+
+.descriptionHead {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mainHead {
+    margin-bottom: 7%;
+}
+
+.subItem {
+    margin-left: 5%;
+}
+
+.mainTitle {
+    font-size: 24px;
+    font-weight: 500px;
+}
+
+.codingHead {
+    margin-bottom: 4%;
+}
+
+.codingName {
+    text-align: center;
+}
+
+.codingNameSpacing {
+    margin-top: 12px;
+}
+
+.toolSkillName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .toolSkillSpacing {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.checkSkills {
+    display: flex;
+    margin-bottom: 7px;
+}
+
+.marginLeft {
+    margin-left: 10px;
+}
+
+.knowHead {
+    margin-bottom: 2%;
+}
+
+.iconSpacing {
+    margin-top: 7px;;
+}
+
+.blockLeft {
+    display: block;
+    text-align: center;
+}
+
+.blockRight {
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+.footerLeft {
+   position: fixed;
+   left: 3%;
+   bottom: 0;
+   width: 25%;
+   margin: 2px 0 3% 0; /* trbl */
+   font-size: 14px;
+   line-height: 2;
+   color: whitesmoke;
+}
+
+.footerRight {
+    position: fixed;
+    text-align: right;
+    right: 0;
+    bottom: 0;
+    width: 20%;
+    margin: 2px 5% 3% 0; /* trbl */
+    font-size: 14px;
+    line-height: 2;
+    color: whitesmoke;
+  }
+
+  .iconSpacing {
+    margin-right: 4px;
+  }
